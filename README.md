@@ -1,4 +1,3 @@
-
 Репозиторий для тестирования Jenkins Job Server
 
 ### Ветка “master”
