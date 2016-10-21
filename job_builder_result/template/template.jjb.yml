@@ -1,0 +1,12 @@
+- job-template:
+    name: muon-group_jjs_testcase_the_template_my_variable_name_{my_variable_name}
+    description: full has maximum fields
+    builders:
+      - shell: 'npm test'
+- project:
+    name: no name
+    my_variable_name:
+      - var_value_1
+      - var_value_2
+    jobs:
+      - muon-group_jjs_testcase_the_template_my_variable_name_{my_variable_name}

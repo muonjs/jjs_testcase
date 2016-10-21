@@ -1,0 +1,17 @@
+variables:
+  my_variable_name:
+    - var_value_1
+    - var_value_2
+name: 'the_template'
+branches: '*'
+templates:
+  - my_template_1
+  - my_template_2
+scm:
+  - git:
+      url: usergit
+      branches:
+        - origin/master
+description: full has maximum fields
+builders:
+  - shell: 'npm test'

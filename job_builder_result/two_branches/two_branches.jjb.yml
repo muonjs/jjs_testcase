@@ -1,0 +1,6 @@
+- job-template:
+    name: muon-group_jjs_testcase_two_branches
+- project:
+    name: no name
+    jobs:
+      - muon-group_jjs_testcase_two_branches

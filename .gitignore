@@ -1,0 +1,11 @@
+npm-debug.log
+*.db
+*.log
+*.iml
+.idea
+.DS_Store
+.*.bash
+.project
+.settings
+*.sublime-project
+*.sublime-workspace
