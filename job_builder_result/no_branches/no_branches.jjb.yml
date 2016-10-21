@@ -1,6 +1,6 @@
 - job-template:
-    name: muon-group_jjs_testcase_no_branches
+    name: muonjs_jjs_testcase_no_branches
 - project:
     name: no name
     jobs:
-      - muon-group_jjs_testcase_no_branches
+      - muonjs_jjs_testcase_no_branches

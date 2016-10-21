@@ -1,7 +1,7 @@
 - job-template:
-    name: muon-group_jjs_testcase_the_shared
+    name: muonjs_jjs_testcase_the_shared
     description: 'Shared: all branches'
 - project:
     name: no name
     jobs:
-      - muon-group_jjs_testcase_the_shared
+      - muonjs_jjs_testcase_the_shared
